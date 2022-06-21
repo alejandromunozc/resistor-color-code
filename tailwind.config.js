@@ -4,7 +4,12 @@ module.exports = {
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}", "./node_modules/tw-elements/dist/js/**/*.js"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundColor: theme => ({
+        ...theme('colors'),
+        'primary': '#8AB933'
+      })
+    },
   },
   plugins: [require('tw-elements/dist/plugin')],
 }

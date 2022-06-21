@@ -15,10 +15,6 @@ const SelectMode = () => {
                     </div>
                 </div>
                 <div className='grow text-left px-4'>Ω a Colores</div>
-                {/* <label className="form-check-label inline-block text-gray-800"
-                    htmlFor="flexSwitchCheckDefault">
-                        Default switch checkbox input
-                </label> */}
         </div>
     )
 }

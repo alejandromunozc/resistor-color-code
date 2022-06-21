@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import BandsNumber from './components/BandsNumber'
 import Header from './components/Header'
 import SelectMode from './components/SelectMode'
 
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Header />
       <SelectMode />
-      <h1>Resistor Color Code</h1>
+      <BandsNumber />
     </div>
   )
 }

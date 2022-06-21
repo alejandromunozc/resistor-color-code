@@ -1,10 +1,10 @@
 import { useState } from 'react'
+import Header from './components/Header'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
+      <Header />
       <h1>Resistor Color Code</h1>
     </div>
   )

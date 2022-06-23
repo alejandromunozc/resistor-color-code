@@ -3,7 +3,7 @@ import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons'
 
 const DarkModeButton = () => {
   return (
-    <FontAwesomeIcon icon={ faSun } className="text-2xl text-yellow-400 animate-pulse" />
+    <FontAwesomeIcon icon={ faSun } className="text-2xl text-yellow-400 animate-pulse cursor-pointer" />
   )
 }
 

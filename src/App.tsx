@@ -1,5 +1,6 @@
 import BandsNumber from './components/BandsNumber'
 import Header from './components/Header'
+import Resistor from './components/Resistor'
 import SelectMode from './components/SelectMode'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <SelectMode />
       <BandsNumber />
+      <Resistor />
     </div>
   )
 }

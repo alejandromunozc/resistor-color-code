@@ -1,7 +1,7 @@
 const InputValue = () => {
   return (
-    <div className="flex justify-center hidden">
-        <div className="mb-3 xl:w-96">
+    <div id="inputValue" className="flex justify-center hidden">
+        <div className="mb-3 mt-3  w-80">
             <input
             type="text"
             className="
@@ -10,7 +10,7 @@ const InputValue = () => {
                 w-full
                 px-3
                 py-1.5
-                text-base
+                text-right
                 font-normal
                 text-gray-700
                 bg-white bg-clip-padding
@@ -22,7 +22,7 @@ const InputValue = () => {
                 focus:text-gray-700 focus:bg-white focus:border-[#8AB933] focus:outline-none
             "
             id="inputValue"
-            placeholder="Ejemplo: 470K"
+            placeholder="Escribe el valor, ejemplo: 470K"
             />
         </div>
     </div>

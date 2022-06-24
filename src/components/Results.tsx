@@ -9,7 +9,7 @@ const Results = () => {
                         <li className="bg-primary pr-1">Valor</li>
                         <li className="pr-1">Tolerancia</li>
                         <li className=" bg-primary pr-1">Coeficiente Temp</li>
-                        <li className="pr-1">Valores Comerciales</li>
+                        <li className="pr-1">Comerciales</li>
                     </ul>
                 </div>
                 <div className="w-6/12">
@@ -17,7 +17,7 @@ const Results = () => {
                         <li className="bg-primary pl-1">470k</li>
                         <li className="pl-1">+/- 5%</li>
                         <li className="bg-primary pl-1">100 PPM</li>
-                        <li className="pl-1">Es comercial</li>
+                        <li className="pl-1">470K</li>
                     </ul>
                 </div>
             </div>

@@ -1,7 +1,6 @@
 const SelectMode = () => {
 
     const handleSelectMode = (e: any) => {
-        console.log(e.target.checked)
         if(e.target.checked){
             document.getElementById('bandsNumber')?.classList.add('hidden')
             document.getElementById('inputValue')?.classList.remove('hidden')

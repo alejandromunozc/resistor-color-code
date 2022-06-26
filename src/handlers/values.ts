@@ -1,64 +1,79 @@
-export enum bandColors {
-    black = 'bg-black',
-    brown = 'bg-orange-900',
-    red = 'bg-red-600',
-    orange = 'bg-orange-600',
-    yellow = 'bg-yellow-500',
-    green = 'bg-green-500',
-    blue = 'bg-blue-700',
-    purple = 'bg-purple-700',
-    gray = 'bg-gray-500',
-    white = 'bg-white',
-    gold = 'bg-amber-500',
-    silver = 'bg-zinc-400'
+export const bandColors = [
+    'bg-black',
+    'bg-orange-900',
+    'bg-red-600',
+    'bg-orange-600',
+    'bg-yellow-500',
+    'bg-green-500',
+    'bg-blue-700',
+    'bg-purple-700',
+    'bg-gray-500',
+    'bg-white',
+    'bg-amber-500',
+    'bg-zinc-400'
+]
+
+/* export const bandColors = {
+    black : 'bg-black',
+    brown : 'bg-orange-900',
+    red : 'bg-red-600',
+    orange : 'bg-orange-600',
+    yellow : 'bg-yellow-500',
+    green : 'bg-green-500',
+    blue : 'bg-blue-700',
+    purple : 'bg-purple-700',
+    gray : 'bg-gray-500',
+    white : 'bg-white',
+    gold : 'bg-amber-500',
+    silver : 'bg-zinc-400'
+} */
+
+export const valueBandColors = {
+    black : 0,
+    brown : 1,
+    red : 2,
+    orange : 3,
+    yellow : 4,
+    green : 5,
+    blue : 6,
+    purple : 7,
+    gray : 8,
+    white : 9
 }
 
-export enum valueBandColors {
-    black = 0,
-    brown = 1,
-    red = 2,
-    orange = 3,
-    yellow = 4,
-    green = 5,
-    blue = 6,
-    purple = 7,
-    gray = 8,
-    white = 9
+export const multiplierBandColors = {
+    black :             1,
+    brown :            10,
+    red :             100,
+    orange :        1_000,
+    yellow :       10_000,
+    green :       100_000,
+    blue :      1_000_000,
+    purple :   10_000_000,
+    gray :    100_000_000,
+    white : 1_000_000_000,
+    gold :            0.1,
+    silver :         0.01
 }
 
-export enum multiplierBandColors {
-    black =             1,
-    brown =            10,
-    red =             100,
-    orange =        1_000,
-    yellow =       10_000,
-    green =       100_000,
-    blue =      1_000_000,
-    purple =   10_000_000,
-    gray =    100_000_000,
-    white = 1_000_000_000,
-    gold =            0.1,
-    silver =         0.01
+export const toleranceBandColors = {
+    brown : 1,
+    red : 2,
+    green : 0.5,
+    blue : 0.25,
+    purple : 0.1,
+    gray : 0.05,
+    gold : 5,
+    silver : 10
 }
 
-export enum toleranceBandColors {
-    brown = 1,
-    red = 2,
-    green = 0.5,
-    blue = 0.25,
-    purple = 0.1,
-    gray = 0.05,
-    gold = 5,
-    silver = 10
-}
-
-export enum ppmBandColors {
-    brown = 100,
-    red = 50,
-    orange = 15,
-    yellow = 25,
-    blue = 10,
-    purple = 5
+export const ppmBandColors = {
+    brown : 100,
+    red : 50,
+    orange : 15,
+    yellow : 25,
+    blue : 10,
+    purple : 5
 }
 
 export const comercialValues = [

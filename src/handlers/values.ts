@@ -8,12 +8,10 @@ export const bandColors = [
     'bg-blue-700',
     'bg-purple-700',
     'bg-gray-500',
-    'bg-white',
-    'bg-amber-500',
-    'bg-zinc-400'
+    'bg-white'
 ]
 
-/* export const bandColors = {
+export const multiplierbandColors = {
     black : 'bg-black',
     brown : 'bg-orange-900',
     red : 'bg-red-600',
@@ -26,7 +24,7 @@ export const bandColors = [
     white : 'bg-white',
     gold : 'bg-amber-500',
     silver : 'bg-zinc-400'
-} */
+}
 
 export const valueBandColors = {
     black : 0,
@@ -41,7 +39,7 @@ export const valueBandColors = {
     white : 9
 }
 
-export const multiplierBandColors = {
+export const multiplierBandValues = {
     black :             1,
     brown :            10,
     red :             100,

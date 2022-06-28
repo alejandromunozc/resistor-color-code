@@ -11,20 +11,31 @@ export const bandColors = [
     'bg-white'
 ]
 
-export const multiplierbandColors = {
-    black : 'bg-black',
-    brown : 'bg-orange-900',
-    red : 'bg-red-600',
-    orange : 'bg-orange-600',
-    yellow : 'bg-yellow-500',
-    green : 'bg-green-500',
-    blue : 'bg-blue-700',
-    purple : 'bg-purple-700',
-    gray : 'bg-gray-500',
-    white : 'bg-white',
-    gold : 'bg-amber-500',
-    silver : 'bg-zinc-400'
-}
+export const multiplierbandColors = [
+    'bg-black',
+    'bg-orange-900',
+    'bg-red-600',
+    'bg-orange-600',
+    'bg-yellow-500',
+    'bg-green-500',
+    'bg-blue-700',
+    'bg-purple-700',
+    'bg-gray-500',
+    'bg-white',
+    'bg-[#C08327]',
+    'bg-[#BFBEBF]'
+]
+
+export const toleranceBandColors = [
+    'bg-orange-900',
+    'bg-red-600',
+    'bg-green-500',
+    'bg-blue-700',
+    'bg-purple-700',
+    'bg-gray-500',
+    'bg-[#C08327]',
+    'bg-[#BFBEBF]'
+]
 
 export const valueBandColors = {
     black : 0,
@@ -54,7 +65,7 @@ export const multiplierBandValues = {
     silver :         0.01
 }
 
-export const toleranceBandColors = {
+export const toleranceBandValues = {
     brown : 1,
     red : 2,
     green : 0.5,
